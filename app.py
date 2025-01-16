@@ -213,8 +213,8 @@ st.markdown(
 )
 
 # Load the movie data and similarity model
-movies = pickle.load(open('E:/Recommendation System/artifacts/movie_list.pkl', 'rb'))
-similarity = pickle.load(open('E:/Recommendation System/artifacts/similarity.pkl', 'rb'))
+movies = pickle.load(open('artifacts/movie_list.pkl', 'rb'))
+similarity = pickle.load(open('artifacts/similarity.pkl', 'rb'))
 
 # Load user data
 user_data = load_user_data()
